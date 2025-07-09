@@ -1,0 +1,15 @@
+create databae CrudNetMVC
+go 
+
+use CrudNetMVC
+go 
+
+create table Contacto(
+ Id int primary key not null,
+ Nombre nvarchar(max) not null,
+ Telefono nvarchar(max) not null,
+ Celular nvarchar(max) not null,
+ Correo nvarchar(max) not null,
+ fechaCreacion datetime not null
+)
+go
